@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\businessDictionary.Client.props" />
+</Project>

@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\businessDictionary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\businessDictionary.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\fonts\\Wandhen.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Wandhen.ttf"
+    },
+    {
+      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.businessDictionary.props",
+      "PackagePath": "build\\businessDictionary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.businessDictionary.props",
+      "PackagePath": "buildMultiTargeting\\businessDictionary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.businessDictionary.props",
+      "PackagePath": "buildTransitive\\businessDictionary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.businessDictionary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

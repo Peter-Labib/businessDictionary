@@ -1,0 +1,42 @@
+﻿@page "/dictionary"
+@inject HttpClient Http
+@using businessDictionary.Components.Pages.Dictionary.TagModal
+@using businessDictionary.Components.Pages.Dictionary.TagsTable
+
+<PageTitle>Dictionary</PageTitle>
+<div class="d-flex flex-column-reverse flex-lg-row justify-content-between">
+    <div class="d-flex align-items-center justify-content-center">
+        <input placeholder="search" class="form-control" />
+    </div>
+    <TagModal />
+</div>
+   <TagsTable />
+
+   @code {
+    private DictionaryResponse dictionaryData;
+    private bool isLoading = true;
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Example of adding parameters to the endpoint URL
+            var pageIndex = 1;
+            var pageSize = 10;
+
+            string requestUrl = $"businessdictionary/tag?pageIndex={pageIndex}&pageSize={pageSize}";
+
+            // Send GET request to the endpoint
+            dictionaryData = await Http.GetFromJsonAsync<DictionaryResponse>(requestUrl);
+
+            isLoading = false; // Set loading to false once data is loaded
+        }
+        catch (Exception ex)
+        {
+            // Handle any errors that occur during the request
+            errorMessage = $"Error fetching data: {ex.Message}";
+            isLoading = false;
+        }
+    }
+   }

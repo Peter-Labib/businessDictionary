@@ -1,0 +1,153 @@
+.sidebar {
+    border-right: 1px solid #A6C4EA
+}
+
+.nav-bar {
+    box-shadow: 0px 4px 6px 0px #00000014;
+    z-index: 2;
+}
+
+.page-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    height: 32px;
+    width: 32px
+}
+
+.icon {
+    cursor: pointer;
+    align-self: center;
+    color: #22242F;
+}
+
+.icon-size {
+    font-size: 24px
+}
+
+.nav-item-icon .nav-link {
+    color: inherit
+}
+
+.nav-item-icon ::deep .nav-link {
+    color: inherit;
+    border: none;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px
+}
+
+.nav-item-icon ::deep a.active {
+    background-color: #DFE5F5;
+    color: #4784C5
+}
+
+    .nav-item-icon ::deep a.active .icon {
+        color: #4784C5
+    }
+
+.nav-item-icon ::deep .nav-link:hover {
+    background-color: #DFE5F5;
+    color: #4784C5
+}
+
+.icon-route.active {
+    color: #4784C5;
+    background-color: #DFE5F5;
+}
+
+main {
+    flex: 1;
+}
+
+.sidebar {
+    /*    color: black*/
+}
+
+.top-row {
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+        .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row ::deep a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+@media (max-width: 640.98px) {
+    .top-row {
+        justify-content: space-between;
+    }
+
+        .top-row ::deep a, .top-row ::deep .btn-link {
+            margin-left: 0;
+        }
+}
+
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 250px;
+        height: 85vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+        .top-row.auth ::deep a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
+
+    .top-row, article {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }

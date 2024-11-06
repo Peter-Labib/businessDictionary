@@ -1,0 +1,48 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page-container">
+    <div class="nav-bar d-flex justify-content-between align-items-center px-4 py-3">
+        <div class="logo-container"><img width="32" height="32" class="img-fluid" src="logo.png" /></div>
+        <div class="d-flex justify-content-between gap-1">
+
+            <div class="nav-item-icon">
+                <NavLink class="nav-link icon-route" href="main">
+                    <span class="bi bi-layers icon-size icon" />
+                </NavLink>
+            </div>
+            <div class="nav-item-icon">
+                <NavLink class="nav-link icon-route" href="main">
+                    <span class="bi bi-grid icon-size icon" />
+                </NavLink>
+            </div>
+            <div class="nav-item-icon">
+                <NavLink class="nav-link icon-route" href="dictionary">
+                    <span class="bi bi-book icon-size icon" />
+                </NavLink>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <button type="button" class="btn btn-outline-primary">Manage Access</button>
+            <span class="bi bi-bell icon-size icon" />
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+
+        <main>
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    </div>
+
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>

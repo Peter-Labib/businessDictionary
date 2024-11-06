@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "businessDictionary", "businessDictionary\businessDictionary\businessDictionary.csproj", "{D61B5AAC-4B70-467E-AED2-B0974F05AA67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "businessDictionary.Client", "businessDictionary\businessDictionary.Client\businessDictionary.Client.csproj", "{913DECB7-60B1-461D-8022-6CE3832C81A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61B5AAC-4B70-467E-AED2-B0974F05AA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61B5AAC-4B70-467E-AED2-B0974F05AA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61B5AAC-4B70-467E-AED2-B0974F05AA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61B5AAC-4B70-467E-AED2-B0974F05AA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913DECB7-60B1-461D-8022-6CE3832C81A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913DECB7-60B1-461D-8022-6CE3832C81A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913DECB7-60B1-461D-8022-6CE3832C81A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913DECB7-60B1-461D-8022-6CE3832C81A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5C98FF2-50B5-4420-930B-7CE15EF01BFA}
+	EndGlobalSection
+EndGlobal
