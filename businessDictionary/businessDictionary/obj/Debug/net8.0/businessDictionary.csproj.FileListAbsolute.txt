@@ -60,3 +60,4 @@ C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDiction
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary\obj\Debug\net8.0\businessDictionary.pdb
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary\obj\Debug\net8.0\businessDictionary.genruntimeconfig.cache
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary\obj\Debug\net8.0\ref\businessDictionary.dll
+C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary\obj\Debug\net8.0\businessDictionary.sourcelink.json

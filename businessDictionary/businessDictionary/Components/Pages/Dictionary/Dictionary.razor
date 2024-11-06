@@ -4,13 +4,16 @@
 @using businessDictionary.Components.Pages.Dictionary.TagsTable
 
 <PageTitle>Dictionary</PageTitle>
-<div class="d-flex flex-column-reverse flex-lg-row justify-content-between">
+<div class="d-flex flex-column-reverse flex-sm-row justify-content-between">
     <div class="d-flex align-items-center justify-content-center">
         <input placeholder="search" class="form-control" />
     </div>
     <TagModal />
 </div>
-   <TagsTable />
+<div class="mt-5 d-flex flex-column flex-md-row">
+    <TagsTable />
+    <div></div>
+</div>
 
    @code {
     private DictionaryResponse dictionaryData;
