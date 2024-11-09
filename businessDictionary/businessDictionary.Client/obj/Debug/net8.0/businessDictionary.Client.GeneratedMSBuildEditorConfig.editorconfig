@@ -26,6 +26,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary.Client/Pages/Dictionary.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljdGlvbmFyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary.Client/Pages/TagModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFnTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary.Client/Pages/TagsTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFnc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

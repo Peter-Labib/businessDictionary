@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "businessDictionary.Client",
   "resources": {
-    "hash": "sha256-Vr1wg4dXjztrMEP5Qpneng3FBwUKg92MRRIoGyzt4Y0=",
+    "hash": "sha256-Pd2qVNKAg5/RnKGQ1+38dMn69R3+UsRmqDyFS7epof8=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.dttvpwtuld.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "businessDictionary.Client.wasm": "sha256-lrnYADwFyJQAH5oXebxMECGcCGW5NKdUPoOgCLXHn9Y="
+      "businessDictionary.Client.wasm": "sha256-/AGxUXUZ9ckDwtaA1IHEvrpSwGqIpZ/CVEBv5rW3PjM="
     },
     "pdb": {
-      "businessDictionary.Client.pdb": "sha256-XEPCNgv4wjZoAVhKhgHEEKHG/FzmD07qQx5PvTlQqHQ="
+      "businessDictionary.Client.pdb": "sha256-HwBuYEtZyiGhZNDDJrK9/B3kDCVQhD8GoDIpOPAHAvs="
     }
   },
   "cacheBootResources": true,

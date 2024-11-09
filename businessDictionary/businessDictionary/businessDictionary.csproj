@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Components\Pages\Dictionary\TagModal\TagsTable.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\businessDictionary.Client\businessDictionary.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.10" />
   </ItemGroup>

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\components\\pages\\dictionary\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\components\\pages\\dictionary\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\pages\\tagmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\pages\\tagmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\components\\pages\\dictionary\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\components\\pages\\dictionary\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\pages\\tagmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\pages\\tagmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\pages\\tagstable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\pages\\tagstable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{913DECB7-60B1-461D-8022-6CE3832C81A5}|businessDictionary\\businessDictionary.Client\\businessDictionary.Client.csproj|solutionrelative:businessdictionary\\businessdictionary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\components\\pages\\dictionary\\tagstable\\tagstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\components\\pages\\dictionary\\tagstable\\tagstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|c:\\users\\peter\\pc\\practise\\businessdictionary\\businessdictionary\\businessdictionary\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D61B5AAC-4B70-467E-AED2-B0974F05AA67}|businessDictionary\\businessDictionary\\businessDictionary.csproj|solutionrelative:businessdictionary\\businessdictionary\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,33 +46,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\appsettings.json",
-              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\appsettings.json",
-              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\appsettings.json",
-              "RelativeToolTip": "businessDictionary\\businessDictionary\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-06T06:59:40.689Z",
+              "DocumentIndex": 0,
+              "Title": "TagModal.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagModal.cs",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Pages\\TagModal.cs",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagModal.cs",
+              "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Pages\\TagModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:50:13.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Program.cs",
-              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\Program.cs",
-              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Program.cs",
-              "RelativeToolTip": "businessDictionary\\businessDictionary\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T06:59:38.518Z",
+              "Title": "TagsTable.razor",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagsTable.razor",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Pages\\TagsTable.razor",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagsTable.razor",
+              "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Pages\\TagsTable.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T23:49:00.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TagModal.razor",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagModal.razor",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Pages\\TagModal.razor",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\TagModal.razor",
+              "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Pages\\TagModal.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T23:45:40.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dictionary.razor",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\Dictionary.razor",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Pages\\Dictionary.razor",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\Dictionary.razor",
+              "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Pages\\Dictionary.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T23:43:33.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "businessDictionary\\businessDictionary\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T00:01:02.447Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T23:58:48.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\Program.cs",
               "RelativeDocumentMoniker": "businessDictionary\\businessDictionary.Client\\Program.cs",
@@ -76,47 +131,7 @@
               "RelativeToolTip": "businessDictionary\\businessDictionary.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T06:59:34.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dictionary.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.cs",
-              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.cs",
-              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.cs",
-              "RelativeToolTip": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T06:53:59.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dictionary.razor",
-              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.razor",
-              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.razor",
-              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.razor",
-              "RelativeToolTip": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\Dictionary.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T06:53:58.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TagsTable.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\TagsTable\\TagsTable.cs",
-              "RelativeDocumentMoniker": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\TagsTable\\TagsTable.cs",
-              "ToolTip": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\TagsTable\\TagsTable.cs",
-              "RelativeToolTip": "businessDictionary\\businessDictionary\\Components\\Pages\\Dictionary\\TagsTable\\TagsTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T06:53:53.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T23:46:12.703Z"
             }
           ]
         }

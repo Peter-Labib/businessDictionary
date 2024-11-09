@@ -1026,3 +1026,4 @@ C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDiction
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\refint\businessDictionary.Client.dll
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\businessDictionary.Client.pdb
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\ref\businessDictionary.Client.dll
+C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\businessDictionary.Client.sourcelink.json
