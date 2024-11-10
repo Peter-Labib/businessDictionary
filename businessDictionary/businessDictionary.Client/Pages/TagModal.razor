@@ -1,4 +1,5 @@
-﻿<button class="btn btn-primary" @onclick="()=>ShowModal()">Open Modal</button>
+﻿@rendermode InteractiveWebAssembly
+<button class="btn btn-primary" @onclick="()=>ShowModal()">Add new business tag</button>
 
 <div class="modal fade @(IsModalVisible ? "show d-block" : "")" tabindex="-1" style="background-color: rgba(0, 0, 0, 0.5);">
     <div class="modal-dialog">

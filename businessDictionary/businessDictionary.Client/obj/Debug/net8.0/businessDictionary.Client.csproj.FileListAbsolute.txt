@@ -1026,6 +1026,7 @@ C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDiction
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\refint\businessDictionary.Client.dll
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\businessDictionary.Client.pdb
 C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\ref\businessDictionary.Client.dll
+<<<<<<< HEAD
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
@@ -2055,3 +2056,6 @@ D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\o
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\refint\businessDictionary.Client.dll
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\businessDictionary.Client.pdb
 D:\codes\peter\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\ref\businessDictionary.Client.dll
+=======
+C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary.Client\obj\Debug\net8.0\businessDictionary.Client.sourcelink.json
+>>>>>>> 08acf9566b371dc5de80f03de3b52113e5ef8455

@@ -1,4 +1,4 @@
-﻿namespace businessDictionary.Components.Pages.Dictionary.TagModal
+﻿namespace businessDictionary.Client.Pages
 {
     public partial class TagModal
     {
