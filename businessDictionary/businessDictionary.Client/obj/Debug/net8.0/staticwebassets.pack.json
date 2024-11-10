@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\codes\\peter\\businessDictionary\\businessDictionary\\businessDictionary.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\obj\\Debug\\net8.0\\compressed\\fu9rsgul88.gz",
+      "Id": "D:\\codes\\peter\\businessDictionary\\businessDictionary\\businessDictionary.Client\\obj\\Debug\\net8.0\\compressed\\wp793wny17.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\wwwroot\\appsettings.Development.json",
+      "Id": "D:\\codes\\peter\\businessDictionary\\businessDictionary\\businessDictionary.Client\\wwwroot\\appsettings.Development.json",
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },
     {
-      "Id": "C:\\Users\\peter\\pc\\practise\\businessDictionary\\businessDictionary\\businessDictionary.Client\\wwwroot\\appsettings.json",
+      "Id": "D:\\codes\\peter\\businessDictionary\\businessDictionary\\businessDictionary.Client\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {

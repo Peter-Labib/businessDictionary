@@ -1,5 +1,7 @@
 using businessDictionary.Client.Pages;
 using businessDictionary.Components;
+using businessDictionary.services;
+using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,15 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
+// Define the fixed token for authorization
 var fixedToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTZXNzaW9uSWQiOiIyY0lld0ZMWU9Xb1pfN0IxTXZ1SFBYMWxpM2FWVnZNNWZ5WjdaRnI3cFQ4eVhtR2lINjExdVhldU5LdGJwckYzdzFTTVFmVUNuUHhSdVNtLXQ0dnlqYWFjalVCLTd1dkdQbXltQ2JFRGV3bz0iLCJqdGkiOiJiMWZlNGRjMC1lZWM3LTQ3ZWUtOTE4NS04NjRkMTE0MmMwYWYiLCJleHAiOjE3MzExMzMwNTh9.LEmNAAasXkfnF1dDlGJ7twOWhfI2h4NGSuyifLoibfQ";
-builder.Services.AddScoped(sp => new HttpClient
-{
-    BaseAddress = new Uri("https://app.datablueprint.ai/"),
-    DefaultRequestHeaders =
+
+// Register HttpClient with the base address and default authorization header
+builder.Services.AddScoped(sp => {
+    var httpClient = new HttpClient
     {
-        Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", fixedToken)
-    }
+        BaseAddress = new Uri("https://app.datablueprint.ai/")
+    };
+    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", fixedToken);
+    return httpClient;
 });
+builder.Services.AddScoped<BusinessDictionaryService>();
+builder.Services.AddScoped<AuthService>();
+
 
 var app = builder.Build();
 

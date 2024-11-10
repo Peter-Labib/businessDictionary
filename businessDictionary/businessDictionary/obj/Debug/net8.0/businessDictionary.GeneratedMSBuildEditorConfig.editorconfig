@@ -9,55 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = businessDictionary
 build_property.RootNamespace = businessDictionary
-build_property.ProjectDir = C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary\
+build_property.ProjectDir = D:\codes\peter\businessDictionary\businessDictionary\businessDictionary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\peter\pc\practise\businessDictionary\businessDictionary\businessDictionary
+build_property.MSBuildProjectDirectory = D:\codes\peter\businessDictionary\businessDictionary\businessDictionary
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/App.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/Dictionary.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/Dictionary.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaWN0aW9uYXJ5XERpY3Rpb25hcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/TagModal/TagModal.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/TagModal/TagModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaWN0aW9uYXJ5XFRhZ01vZGFsXFRhZ01vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/TagsTable/TagsTable.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Dictionary/TagsTable/TagsTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaWN0aW9uYXJ5XFRhZ3NUYWJsZVxUYWdzVGFibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Error.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Home.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/FtechData/FtechData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGdGVjaERhdGFcRnRlY2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Weather.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Routes.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/_Imports.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Layout/MainLayout.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-xk2voz2exv
 
-[C:/Users/peter/pc/practise/businessDictionary/businessDictionary/businessDictionary/Components/Layout/NavMenu.razor]
+[D:/codes/peter/businessDictionary/businessDictionary/businessDictionary/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-m9c8n8izps

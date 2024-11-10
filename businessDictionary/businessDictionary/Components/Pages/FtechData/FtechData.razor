@@ -1,0 +1,59 @@
+﻿@page "/fetchdata"
+@using businessDictionary.services
+@inject BusinessDictionaryService BusinessDictionaryService
+
+<h3>Fetch Data</h3>
+
+
+@if (businessDictionaryData == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var item in businessDictionaryData.tags.items)
+        {
+            <li>
+                <strong>Name:</strong> @item.name <br />
+                <strong>Definition:</strong> @item.definition <br />
+                <strong>Effective Date:</strong> @(item.effectiveDate?.ToString("yyyy-MM-dd") ?? "N/A") <br />
+                <strong>Last Update Date:</strong> @(item.lastUpdateDate?.ToString("yyyy-MM-dd") ?? "N/A") <br />
+                <strong>Labels:</strong>
+                <ul>
+                    @if (item.labels != null)
+                    {
+                        @foreach (var label in item.labels)
+                        {
+                            <li>@label.name - @label.color</li>
+                        }
+                    }
+                    else
+                    {
+                        <li>No Labels</li>
+                    }
+                </ul>
+            </li>
+
+            <h4>Labels</h4>
+                @foreach (var label in businessDictionaryData.labels)
+                {
+                    <li>
+                        <strong>Name:</strong> @label.name <br />
+                        <strong>Color:</strong> <span style="background-color:@label.color; color:white;">@label.color</span><br />
+                        <strong>Is Checked:</strong> @(label.isChecked ? "Yes" : "No")<br />
+                        <strong>Color Picker Open:</strong> @(label.isColorPickerOpen ? "Yes" : "No")
+                    </li>
+                }
+        }
+    </ul>
+}
+
+@code {
+    private DictionaryResponse businessDictionaryData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        businessDictionaryData = await BusinessDictionaryService.GetBusinessDictionaryAsync();
+    }
+}

@@ -1,9 +1,13 @@
-﻿@page "/dictionary"
+﻿@page "/dictionary/{labelName}"
 @inject HttpClient Http
+@inject BusinessDictionaryService BusinessDictionaryService
+
 @using businessDictionary.Components.Pages.Dictionary.TagModal
 @using businessDictionary.Components.Pages.Dictionary.TagsTable
+@using businessDictionary.services
 
 <PageTitle>Dictionary</PageTitle>
+
 <div class="d-flex flex-column-reverse flex-sm-row justify-content-between">
     <div class="d-flex align-items-center justify-content-center">
         <input placeholder="search" class="form-control" />
@@ -11,12 +15,21 @@
     <TagModal />
 </div>
 <div class="mt-5 d-flex flex-column flex-md-row">
-    <TagsTable />
+    @if (tagData != null)
+    {
+
+        <TagsTable terms="tagData.items" />
+        
+    }else
+    {
+        <p>Loading...</p>
+    }
     <div></div>
 </div>
 
-   @code {
-    private DictionaryResponse dictionaryData;
+@code {
+    [Parameter] public string labelName { get; set; }
+    private Tags tagData;
     private bool isLoading = true;
     private string errorMessage;
 
@@ -24,22 +37,21 @@
     {
         try
         {
-            // Example of adding parameters to the endpoint URL
-            var pageIndex = 1;
-            var pageSize = 10;
+            if (!string.IsNullOrEmpty(labelName))
+            {
+                tagData = await BusinessDictionaryService.GetBusinessTags();
+            }
+            else
+            {
+                errorMessage = "Tag not found!";
+            }
 
-            string requestUrl = $"businessdictionary/tag?pageIndex={pageIndex}&pageSize={pageSize}";
-
-            // Send GET request to the endpoint
-            dictionaryData = await Http.GetFromJsonAsync<DictionaryResponse>(requestUrl);
-
-            isLoading = false; // Set loading to false once data is loaded
+            isLoading = false;
         }
         catch (Exception ex)
         {
-            // Handle any errors that occur during the request
             errorMessage = $"Error fetching data: {ex.Message}";
             isLoading = false;
         }
     }
-   }
+}

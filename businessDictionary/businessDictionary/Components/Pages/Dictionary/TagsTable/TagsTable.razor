@@ -1,4 +1,6 @@
-﻿<table class="table">
+﻿@using System.Collections.Generic
+
+<table class="table">
     <thead>
         <tr>
             <th>Name</th>
@@ -7,9 +9,27 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>name</td>
-            <td colspan="2">definition</td>
-        </tr>
+        @if (terms != null && terms.Count > 0)
+        {
+            @foreach (var term in terms)
+            {
+                <tr>
+                    <td>@term.name</td>
+                    <td>@term.definition</td>
+                    <td><button class="btn btn-info">View</button></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No terms available.</td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@code {
+    [Parameter] public List<Item> terms { get; set; }
+
+}

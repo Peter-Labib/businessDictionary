@@ -1,4 +1,7 @@
-﻿<div class=" ps-3 pb-0 navbar">
+﻿@using businessDictionary.services
+@inject BusinessDictionaryService BusinessDictionaryService
+
+<div class="ps-3 pb-0 navbar">
     <div class="container-fluid">
         <a class="navbar-brand py-3" href="">Business Dictionary</a>
     </div>
@@ -9,21 +12,34 @@
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
         <div class="nav-item">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                Home
+            <NavLink class="nav-link" href="All" Match="NavLinkMatch.All">
+                All
             </NavLink>
         </div>
-
-        <div class="nav-item">
-            <NavLink class="nav-link" href="counter">
-                Counter
-            </NavLink>
-        </div>
-
-        <div class="nav-item">
-            <NavLink class="nav-link" href="weather">
-                Weather
-            </NavLink>
-        </div>
+        @if (bictionaryResponseLabels != null)
+        {
+            @foreach (var label in bictionaryResponseLabels)
+            {
+                <div class="nav-item">
+                    <NavLink class="nav-link" href="@($"/dictionary/{label.name}")" Match="NavLinkMatch.All">
+                        @label.name
+                    </NavLink>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Loading...</p>
+        }
     </nav>
 </div>
+
+@code {
+    private List<Label> bictionaryResponseLabels;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Call the service to fetch labels when the component initializes
+        bictionaryResponseLabels = await BusinessDictionaryService.GetBusinessLabel();
+    }
+}
